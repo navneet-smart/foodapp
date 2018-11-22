@@ -41,7 +41,7 @@ return [
     ],
 
     'firebase' => [
-        'api_key' => 'AIzaSyCpXRv-PxAY9OwuFuSraEd7BJo8owv_6Z8', // Only used for JS integration
+        'api_key' => 'Use your API Key to run this project', // Only used for JS integration
         'auth_domain' => 'food-delivery-app-e7995.firebaseapp.com', // Only used for JS integration
         'database_url' => 'https://food-delivery-app-e7995.firebaseio.com',
         'secret' => 'secret',
