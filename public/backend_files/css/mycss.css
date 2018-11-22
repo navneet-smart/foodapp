@@ -1,0 +1,123 @@
+/* Create two equal columns that floats next to each other */
+.mycolumn {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.banner_size{
+    width: 150px;
+    height: 80px;
+}
+
+.banner_modal{
+    width: 300px;
+    height: 150px;
+}
+
+.sponser_size{
+    width: 80px;
+}
+
+.sponser_modal{
+    /*width: 500px;*/
+    height: 350px;
+}
+
+.veg-non-veg{
+    width: 15px;
+}
+
+.profile{
+    margin-right: 45px;
+}
+
+.profile-icon{
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.badge-count{
+    margin-top: 9px;
+}
+
+.accordion-body.in.collapse {
+    height: 150px !important;
+    overflow-y: scroll;
+}
+
+#sidebar > ul > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .nav>li>a {
+    color: #fff;
+}
+
+#user-nav > ul > li > a:hover, #user-nav > ul > li.open > a {
+    background: #2196F3;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu .active a, .dropdown-menu .active a:hover {
+    background: #2196f3;
+}
+
+#content {
+    background: none repeat scroll 0 0 #d9d8ec !important;
+}
+
+h1{
+    color: #bb0303 !important;
+}
+
+.DataTables_sort_wrapper{
+    color: #bb0303 !important;
+}
+
+.table table-bordered data-table dataTable{
+    color: #bb0303 !important;
+}
+
+.gradeX{
+    color: black;
+}
+
+.addbutton{
+    margin-right: 2%;
+    margin-top: 0.8%;
+}
+
+.current{
+    cursor: default;
+}
+
+#myflash{
+    width: 25%;
+    margin-left: 70%;
+    z-index: 1000;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*tr:nth-child(even) {
+    background-color: #eeeeee;
+}*/
+
+/*b{
+    color: red;
+}
+
+.widget-content{
+    color: green;
+}*/
